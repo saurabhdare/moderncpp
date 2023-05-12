@@ -2,6 +2,7 @@
 #include <array>
 #include <iomanip>
 
+// syntax highlighting not working 
 int main() {
     const unsigned min_wt {80};
     const unsigned max_wt {150};
