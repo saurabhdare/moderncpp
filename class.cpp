@@ -20,8 +20,6 @@ public:
     explicit Cube(double size) : m_side {side} {
         std::cout << "Cube constructor called." << std::endl;
     }
-    double volume();
-    bool hasLargerVolumneThan(Cube cube);
 
     double volume()
     {
