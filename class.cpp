@@ -17,7 +17,7 @@ private:
 
 class Cube {
 public:
-    explicit Cube(double size) : m_side {side} {
+    explicit Cube(double side) : m_side {side} {
         std::cout << "Cube constructor called." << std::endl;
     }
 
