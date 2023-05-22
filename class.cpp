@@ -41,7 +41,7 @@ int main()
     Cube box1 {7.0};
     Cube box2 {3.0};
 
-    if (box1.hasLargerVolumneThan(box2)) {
+    if (box1.hasLargerVolumeThan(box2)) {
         std::cout << "box1 is larger than box2." << std::endl;
     } else std::cout << "Volume of box1 is " << box1.volume() << std::endl;
 
