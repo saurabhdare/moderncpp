@@ -6,7 +6,7 @@ public:
     Point(int x1, int y1) : x(x1), y(y1) {}
     void print();
 };
-
+// old style memory management
 void Point::print() {
     using std::cout;
     cout << "The value of x is: " << this->x << 
